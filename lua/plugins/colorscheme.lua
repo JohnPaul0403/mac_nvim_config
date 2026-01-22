@@ -1,18 +1,18 @@
 return {
   {
-    "sainnhe/everforest",
-    lazy = false,
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000,
+    config = true,
     init = function()
       -- Set any Vimscript configuration options for Everforest here
-      vim.g.everforest_background = "hard"
       -- vim.g.everforest_better_performance = 1
-      vim.cmd.colorscheme("everforest")
+      vim.cmd.colorscheme("gruvbox")
     end,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
+      colorscheme = "gruvbox",
     },
   },
 }
